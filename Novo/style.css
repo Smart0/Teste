@@ -1,0 +1,16 @@
+img.dilma{
+    width: 100px;
+}
+
+a.pagina1{
+	color: red;
+	font-size: 30px;
+	font-variant: all-petite-caps;
+}
+
+p.pagina2{
+	font-size: 50px;
+	color: blue;
+	width: 100px;
+	padding-background: 1000;
+}
