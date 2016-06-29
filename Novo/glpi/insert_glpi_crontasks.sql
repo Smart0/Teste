@@ -1,0 +1,4 @@
+INSERT IGNORE INTO `glpi_crontasks` (`itemtype`, `name`, `frequency`, `param`, `state`, `mode`, `allowmode`, `hourmin`, `hourmax`, `logs_lifetime`, `lastrun`, `lastcode`, `comment`) 
+VALUES ('Ticket', 'closeticketfeedback', 300, NULL, 1, 1, 3, 0, 24, 30, NOW(), NULL, 'Ação automática para fechamento de chamados com decurso de prazo para o status: Aguardando Feedback.'),
+       ('Ticket', 'returnticketfeedback', 300, NULL, 1, 1, 3, 0, 24, 10, NOW(), NULL, 'Return automatic of tickets when received user feedback.');
+INSERT INTO `glpi_configs` (`context`, `name`, `value`) VALUES ('core', 'no_central_view_rss', '0');
